@@ -1,0 +1,29 @@
+{
+  "name": "@gaman/cors",
+  "version": "1.0.7",
+  "type": "module",
+  "main": "index.js",
+  "author": "angga7togk",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/GamanJS/cors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GamanJS/cors/issues"
+  },
+	"scripts": {
+		"build": "tsc -b -v",
+		"clean": "tsc -b --clean"
+	},
+  "homepage": "https://gaman.7togk.id",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "@gaman/common": "^1.2.8",
+    "@gaman/core": "^1.2.8",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.9.3"
+  }
+}
